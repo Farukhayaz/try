@@ -14,6 +14,7 @@ function App() {
     //     </Route>
     //   </Routes>
     // </BrowserRouter>
+    // <BrowserRouter>
     <BrowserRouter>
       <Routes>
         <Route index element={<Home />} />
@@ -23,7 +24,9 @@ function App() {
 
 
       </Routes>
-    </BrowserRouter >
+    </BrowserRouter>
+
+
   );
 }
 
