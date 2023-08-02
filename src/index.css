@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+form {
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+textarea {
+    padding: 15px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #ccc;
+    background:none;
+}
+
+
+
+textarea {
+    resize: vertical;
+}
+
